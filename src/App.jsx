@@ -134,10 +134,10 @@ export default function App() {
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-4">
               <div className="bg-zinc-200 rounded-lg aspect-[4/5] overflow-hidden">
-                 <img src="https://cdn.pixabay.com/photo/2017/10/09/09/46/brickwork-2836024_1280.jpg" alt="City wall brickwork architecture" className="w-full h-full object-cover" />
+                 <img src="/gerrithorstman-city-3692879_1920.jpg" alt="City wall brickwork architecture" className="w-full h-full object-cover" />
               </div>
               <div className="bg-zinc-800 rounded-lg aspect-square overflow-hidden">
-                <img src="https://cdn.pixabay.com/photo/2023/06/08/06/09/buildings-8046976_1280.jpg" alt="Buildings and skyscrapers street view" className="w-full h-full object-cover" />
+                <img src="/dimitrisvetsikas1969-buildings-7768192_1920.jpg" alt="Manchester buildings and skyscrapers street view" className="w-full h-full object-cover" />
               </div>
             </div>
             <div className="space-y-4 mt-8">
@@ -145,7 +145,7 @@ export default function App() {
                 <p className="text-red-100 font-serif italic text-xl">"Because it's ours."</p>
               </div>
               <div className="bg-zinc-200 rounded-lg aspect-[4/5] overflow-hidden">
-                 <img src="https://cdn.pixabay.com/photo/2018/04/12/13/42/medicine-3313932_1280.jpg" alt="Medicine pills capsules and addiction awareness" className="w-full h-full object-cover" />
+                 <img src="/bestpsychiatrist-medicine-9182588_1920.jpg" alt="Medicine pills capsules and addiction awareness" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>

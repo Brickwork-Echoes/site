@@ -20,7 +20,7 @@ export default function App() {
               <a href="#music" className="hover:text-red-400 transition-colors text-sm uppercase tracking-wide">The Music</a>
               <a href="#characters" className="hover:text-red-400 transition-colors text-sm uppercase tracking-wide">Characters</a>
               <div className="bg-zinc-800 text-red-400 px-4 py-2 rounded-md font-medium text-sm border border-zinc-700">
-                In Production - Spring 2028
+                In Production - Summer 2028
               </div>
             </div>
 
@@ -44,7 +44,7 @@ export default function App() {
               <a href="#music" onClick={() => setIsMenuOpen(false)} className="block px-3 py-2 text-base font-medium hover:text-red-400">The Music</a>
               <a href="#characters" onClick={() => setIsMenuOpen(false)} className="block px-3 py-2 text-base font-medium hover:text-red-400">Characters</a>
               <div className="w-full mt-4 bg-zinc-800 text-red-400 px-5 py-3 rounded-md font-medium flex items-center justify-center border border-zinc-700">
-                Expected Spring 2028
+                Expected Summer 2028
               </div>
             </div>
           </div>
@@ -76,7 +76,7 @@ export default function App() {
             <div className="flex flex-col sm:flex-row gap-4">
               <div className="bg-red-900/40 text-red-200 px-8 py-4 rounded-md font-bold text-lg border border-red-800 flex items-center justify-center gap-2">
                 <Calendar size={20} />
-                Expected Spring 2028
+                Expected Summer 2028
               </div>
               <button className="bg-zinc-800 hover:bg-zinc-700 text-white px-8 py-4 rounded-md font-bold text-lg transition-all border border-zinc-700 flex items-center justify-center gap-2">
                 <Play size={20} />
@@ -102,7 +102,7 @@ export default function App() {
             <div className="flex flex-col items-center justify-center pt-4 md:pt-0 p-4">
               <Calendar className="w-8 h-8 mb-2 text-red-300" />
               <h3 className="font-bold text-lg">Expected Premiere</h3>
-              <p className="text-red-200">Spring 2028</p>
+              <p className="text-red-200">Summer 2028</p>
             </div>
             <div className="flex flex-col items-center justify-center pt-4 md:pt-0 p-4">
               <Ticket className="w-8 h-8 mb-2 text-red-300" />
@@ -256,7 +256,7 @@ export default function App() {
               Currently In Production
             </p>
             <p className="text-xl text-zinc-300">
-              Expected for release in Spring 2028
+              Expected for release in Summer 2028
             </p>
           </div>
           <p className="text-lg md:text-xl font-serif italic text-zinc-500">

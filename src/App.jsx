@@ -98,16 +98,11 @@ export default function App() {
       {/* Show Info Bar */}
       <div className="bg-red-900 text-white py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center divide-y md:divide-y-0 md:divide-x divide-red-800">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center divide-y md:divide-y-0 md:divide-x divide-red-800">
             <div className="flex flex-col items-center justify-center pt-4 md:pt-0 p-4">
               <Calendar className="w-8 h-8 mb-2 text-red-300" />
               <h3 className="font-bold text-lg">Expected Premiere</h3>
               <p className="text-red-200">Spring 2028</p>
-            </div>
-            <div className="flex flex-col items-center justify-center pt-4 md:pt-0 p-4">
-              <MapPin className="w-8 h-8 mb-2 text-red-300" />
-              <h3 className="font-bold text-lg">The Lowry Theatre</h3>
-              <p className="text-red-200">Salford Quays, Manchester</p>
             </div>
             <div className="flex flex-col items-center justify-center pt-4 md:pt-0 p-4">
               <Ticket className="w-8 h-8 mb-2 text-red-300" />

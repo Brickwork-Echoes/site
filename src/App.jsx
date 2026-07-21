@@ -53,14 +53,14 @@ export default function App() {
 
       {/* Hero Section */}
       <section className="pt-24 pb-12 md:pt-32 md:pb-24 px-4 sm:px-6 lg:px-8 bg-zinc-900 text-white overflow-hidden relative">
-        <div className="absolute inset-0 opacity-20 bg-[url('[https://www.transparenttextures.com/patterns/brick-wall-dark.png](https://www.transparenttextures.com/patterns/brick-wall-dark.png)')] mix-blend-overlay"></div>
+        <div className="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/brick-wall-dark.png')]"></div>
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex flex-col items-center text-center">
             
             {/* Title Image */}
             <div className="w-full max-w-4xl mb-12 shadow-2xl rounded-lg overflow-hidden transform hover:scale-[1.01] transition-transform duration-500 ring-4 ring-zinc-800">
               <img 
-                src="image_c807bb.jpg" 
+                src="/image_c807bb.jpg" 
                 alt="Brickwork Echoes Title Card in red bricks against a cloudy sky" 
                 className="w-full h-auto object-cover"
               />
@@ -126,23 +126,23 @@ export default function App() {
             <h3 className="text-3xl md:text-4xl font-bold mb-6 text-zinc-900">There has to be more than this.</h3>
             <div className="space-y-4 text-lg text-zinc-600">
               <p>
-                Jamie is twenty-four, still getting the same bus, still skint, and living just five doors down from where he grew up. While his friends seem to be moving forward, Jamie feels stuck in the comfortable but suffocating routine of North Manchester.
+                Jamie is twenty-four, still getting the same bus, still skint, and living just five doors down from where he grew up. While his friends seem to be moving forward, Jamie feels stuck. Trapped by routine and circumstance, he watches life happen to others while he remains motionless.
               </p>
               <p>
-                A casual invitation to an Ancoats warehouse party offers a brief escape, but it quickly spirals into a dark, isolating dependency. As the lies mount and the debts pile up, Jamie pushes away the very people who have always been his anchor.
+                A casual invitation to an Ancoats warehouse party offers a brief escape, but it quickly spirals into a dark, isolating dependency. As the lies mount and the debts pile up, Jamie pushes away everyone trying to help—his mum, his best mates, the one person who really sees him.
               </p>
               <p>
-                <strong>Brickwork Echoes</strong> is an unflinching, emotionally raw musical that explores the terrifying reality of rock bottom, and the painstaking, beautiful process of choosing to live again—one day at a time.
+                <strong>Brickwork Echoes</strong> is an unflinching, emotionally raw musical that explores the terrifying reality of rock bottom, and the painstaking, beautiful process of choosing life.
               </p>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-4">
               <div className="bg-zinc-200 rounded-lg aspect-[4/5] overflow-hidden">
-                 <img src="[https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=2071&auto=format&fit=crop](https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=2071&auto=format&fit=crop)" alt="Manchester terraced houses" className="w-full h-full object-cover grayscale opacity-80 mix-blend-multiply" />
+                 <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=2071&auto=format&fit=crop" alt="Atmospheric concert lighting" className="w-full h-full object-cover" />
               </div>
               <div className="bg-zinc-800 rounded-lg aspect-square overflow-hidden">
-                <img src="[https://images.unsplash.com/photo-1576409860613-2877a5b6ce18?q=80&w=2070&auto=format&fit=crop](https://images.unsplash.com/photo-1576409860613-2877a5b6ce18?q=80&w=2070&auto=format&fit=crop)" alt="Warehouse party lights" className="w-full h-full object-cover opacity-60 mix-blend-luminosity" />
+                <img src="https://images.unsplash.com/photo-1576409860613-2877a5b6ce18?q=80&w=2070&auto=format&fit=crop" alt="Dramatic stage setup" className="w-full h-full object-cover" />
               </div>
             </div>
             <div className="space-y-4 mt-8">
@@ -150,7 +150,7 @@ export default function App() {
                 <p className="text-red-100 font-serif italic text-xl">"Because it's ours."</p>
               </div>
               <div className="bg-zinc-200 rounded-lg aspect-[4/5] overflow-hidden">
-                 <img src="[https://images.unsplash.com/photo-1499364615650-ec38552f4cb8?q=80&w=1975&auto=format&fit=crop](https://images.unsplash.com/photo-1499364615650-ec38552f4cb8?q=80&w=1975&auto=format&fit=crop)" alt="Friends laughing" className="w-full h-full object-cover grayscale opacity-80 mix-blend-multiply" />
+                 <img src="https://images.unsplash.com/photo-1499364615650-ec38552f4cb8?q=80&w=1975&auto=format&fit=crop" alt="Intimate performance moment" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
@@ -253,7 +253,7 @@ export default function App() {
 
       {/* CTA Footer Section */}
       <section className="bg-zinc-900 text-center py-24 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10 bg-[url('[https://www.transparenttextures.com/patterns/brick-wall-dark.png](https://www.transparenttextures.com/patterns/brick-wall-dark.png)')]"></div>
+        <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/brick-wall-dark.png')]"></div>
         <div className="max-w-3xl mx-auto px-4 relative z-10">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">Witness the Journey</h2>
           <div className="mb-10 space-y-4">

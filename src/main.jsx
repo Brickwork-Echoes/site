@@ -1,10 +1,3 @@
-
-
-
-7. src/main.jsx
-
-Mounts your React application to the HTML file.
-
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
